@@ -1,0 +1,32 @@
+# Dependencias
+node_modules
+
+# Build outputs
+dist
+build
+
+# Archivos de producción generados por Vite/Electron/etc.
+out
+release
+
+# Configuraciones que NO necesitan formateo
+*.lock
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Directorios de coverage/tests
+coverage
+
+# Archivos estáticos
+public
+
+# Archivos del entorno
+.env
+.env.*
+
+# Editores de codigo
+.vscode
+.idea
+.DS_Store
+

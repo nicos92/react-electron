@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    // dice a typescript que genere sintacsis ESM
+    "target": "esnext",
+    // dice a typescript que necesita sintacsis ESM para la salida
+    "module": "nodenext",
+    //define donde se van a generar los JS
+    "outDir": "../../dist-electron",
+    // ignora error de las dependencias
+    "skipLibCheck": true
+  }
+}
